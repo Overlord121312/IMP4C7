@@ -29,8 +29,10 @@
 }
 
 .into{
-	animation-name:asd;
-	animation-fill-mode: both;
+  animation-name:asd;
+  
+  animation-fill-mode: both;
+  
 	animation-duration: 2s;
 }
 
