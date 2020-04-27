@@ -1,0 +1,32 @@
+.topmenu{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	height: 100%;
+
+}
+.button{
+	width: 23%;
+	display: inline-block;
+	padding: 0.25% 0.25%;
+	color: black;
+	font-size: 150%;
+	border-radius: 4px;
+	color: #FFF;
+	background-color: #303f9f;	
+	cursor: pointer;
+	box-shadow: 2px 2px 3px -1px #000;
+	transition: all 0.8s;
+}
+.button:hover{
+	background-color: #666ad1;
+	box-shadow: 3px 3px 8px -1px #000;
+	transition: all  0.8s;	
+}  
+
+.button:active{
+	background-color: #001970;
+	box-shadow: 2px 2px 1px -1px #000;
+	transition: all 0.3s;	
+} 
+

@@ -1,0 +1,44 @@
+.stats01,.stats02,.stats03{
+	position: relative;
+	
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+	transition: all 0.02s;
+	margin: 1%;
+	box-shadow: 2px 2px 14px -3px ;
+	
+}
+@keyframes asd{
+  from {
+    opacity: 0;
+    visibility: hidden;
+    /*-webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);*/
+    -webkit-transform: translate3d(0, 40px, 0);
+    box-shadow: 2px 40px 14px -3px ;
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.into{
+	animation-name:asd;
+	animation-fill-mode: both;
+	animation-duration: 2s;
+}
+
+
+.frame{
+
+	width: 100%;
+	text-align: center;
+	width: 100%;
+	transition: all 0.02s;
+}

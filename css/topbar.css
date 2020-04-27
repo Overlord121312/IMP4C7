@@ -1,0 +1,50 @@
+@font-face{
+	font-family: 'Ubisoft';
+	src:url("../fonts/TMNT_Narrow_High_Russe_NEW_Big.ttf");
+} 
+@font-face{
+	font-family: 'slogan';
+	src:url("../fonts/RobotoCondensed-Light.ttf");
+} 
+.tittle{
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	color:#FFF;
+	background-image: url('../img/title.jpg');
+	background-attachment: fixed;;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom:1%;
+	}
+.name{
+	
+	width: 33%;
+	font-size: 400%;
+	text-align: center;
+	margin: 0;
+	margin-left: 33%;
+	font-family: Ubisoft ;
+	text-shadow:#303f9f 
+
+}
+.slogan{
+	width: 33%;
+	text-align: center;
+	margin: 0;
+	margin-left: 33%;
+	font-family: slogan ;
+
+}
+.bgtitle{
+	
+	padding: 1% 0 1% 0 ;
+	background-color: #303f9f77;
+
+}
+
+body{
+background-color: #404040;
+	height: 100%;
+	margin: 0;
+	padding: 0;}
