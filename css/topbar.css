@@ -20,19 +20,19 @@
 .name{
 	
 	width: 33%;
-	font-size: 400%;
+	font-size: 10vw;
 	text-align: center;
-	margin: 0;
-	margin-left: 33%;
+	margin:auto auto;
 	font-family: Ubisoft ;
 	text-shadow:#303f9f 
 
 }
 .slogan{
-	width: 33%;
+	width: 100%;
 	text-align: center;
-	margin: 0;
-	margin-left: 33%;
+	margin:auto auto;
+	font-size: 2vw;
+
 	font-family: slogan ;
 
 }
